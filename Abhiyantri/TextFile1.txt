@@ -1,0 +1,5 @@
+﻿User cookies to store uid and pass
+
+2) get location and store it in database and use a limit given by user for job.
+3)get engineers from the company
+4)https://msdn.microsoft.com/en-us/library/ms178194.aspx
