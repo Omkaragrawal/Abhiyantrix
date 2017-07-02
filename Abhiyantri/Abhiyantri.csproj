@@ -90,7 +90,8 @@
     <Content Include="ClientPage.aspx" />
     <Content Include="Engineers.jpg" />
     <Content Include="Login-Signup.aspx" />
-    <Content Include="TextFile1.txt" />
+    <Content Include="Scripts\MyJS.js" />
+    <Content Include="READ ME.txt" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
     <Content Include="WebForm2.aspx" />
