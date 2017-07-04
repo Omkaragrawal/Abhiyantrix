@@ -1,0 +1,2 @@
+﻿disable tab key in input
+send registration details in db

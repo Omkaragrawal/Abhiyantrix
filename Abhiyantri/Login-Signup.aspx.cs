@@ -14,7 +14,10 @@ namespace Abhiyantrix
         protected void Page_Load(object sender, EventArgs e)
         {
             MultiView1.ActiveViewIndex = 0;
+            Button1.Enabled = false;
+            SUSbmtBtn.Enabled = false;
         }
+
 
         protected void Button3_Click(object sender, EventArgs e)
         {

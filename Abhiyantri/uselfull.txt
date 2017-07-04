@@ -1,0 +1,5 @@
+﻿https://goo.gl/X5GtCL ---> keyboard events
+https://goo.gl/8LbYnL --->Membership
+https://goo.gl/DMHHTZ ---> disable login & auto loggout
+https://goo.gl/8Vb27T ---> js validation using regex
+https://goo.gl/fRdFvk --->google search

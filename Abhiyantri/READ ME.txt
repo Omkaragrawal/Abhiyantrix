@@ -3,6 +3,7 @@
 2) get location and store it in database and use a limit given by user for job.
 3)get engineers from the company
 4)https://msdn.microsoft.com/en-us/library/ms178194.aspx
+5) JAVA integration https://www.codeproject.com/Articles/13549/Using-Java-Classes-in-your-NET-Application
 
 (((^[\+,0][9][1])(((\s[0-9]{7,10})|(\S[0-9]{7,10}))|([-]\S[0-9]{7,10})))|((^[\+,0][2]{2,2})((\S[0-9]{7,8})|((([-])[0-9]{7,8})|(\s[0-9]{7,8})))))|(((^[6,7,8,9][0-9]{9,9}))|(^[0,\+](([9][1)|[6,7,8,9]))[0-9]{8,9}))        --------> Regex
 		+91 9967040227
@@ -24,7 +25,7 @@
 		+929967040227
 		+91-9967040227
 --------------------------------> nos'
-
+ClientIDMode="Static"
 
 
 
@@ -34,3 +35,4 @@
 
 Donot uncomment any line. dare not uncommenting any line from MyJS.js file untill permission granted.
  Donot use the access key  and the function verify() MyJS.js untill permission granted.
+
