@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ClientPage.aspx.cs" Inherits="ClientSide.ClientPage" MasterPageFile="" Debug="true" %>
+﻿<%@ Page AutoEventWireup="true" CodeBehind="ClientPage.aspx.cs" Debug="true" Inherits="ClientSide.ClientPage" Language="C#" %>
 
 <!DOCTYPE html>
 

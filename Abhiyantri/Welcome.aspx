@@ -13,9 +13,7 @@
             <asp:Panel ID="Panel1" runat="server" BackImageUrl="~/Engineers.jpg" BorderStyle="Ridge" Height="234px" HorizontalAlign="Center" style="margin-right: 261px" Width="638px">
             </asp:Panel>
             <br />
-            <asp:HyperLink ID="Hyperlink1" runat="server" NavigateUrl="~/Sign Up.aspx" >Sign Up</asp:HyperLink>
-            &nbsp;|&nbsp;
-            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Login.aspx">Login</asp:HyperLink>
+            <asp:HyperLink ID="Hyperlink1" runat="server" NavigateUrl="~/Login-Signup.aspx" >Sign Up/Login</asp:HyperLink>
 
         </div>
         <p>

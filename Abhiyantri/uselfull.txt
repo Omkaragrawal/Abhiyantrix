@@ -3,3 +3,9 @@ https://goo.gl/8LbYnL --->Membership
 https://goo.gl/DMHHTZ ---> disable login & auto loggout
 https://goo.gl/8Vb27T ---> js validation using regex
 https://goo.gl/fRdFvk --->google search
+
+
+
+https://developers.facebook.com/apps/143202096261152/fb-login/quickstart/
+https://developers.facebook.com/docs/facebook-login/web/login-button
+https://stackoverflow.com/questions/11841725/how-to-add-facebook-login-to-my-own-website

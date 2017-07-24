@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="C:\Users\aditya\Desktop\Android\jquery\jquery-3.2.1.min.js">
+    <link rel="stylesheet" href="cssofjquery.css">
+    <link rel="stylesheet" href="jquery-ui-1.12.1\jquery-ui.min.css">   
+    <link rel="stylesheet" href="jquery-ui-1.12.1\jquery-ui.min.js">
+</head>
+<body>
+    
+    <p id="mypara">this is some text</p>
+    <div><p id="mypara2"></p></div>
+    <button id="mybutton">fade</button>
+    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+    <script type="text/javascript">
+    
+        // if(jQuery)
+        // {
+        // alert("exists");
+        // }
+        // else
+        // {
+        //  alert("dosent exist");
+        // }
+        $(document).ready(function(){
+
+            //$('#mypara').html('this is new text');
+             $('#mypara').css('color','red');
+             $('#mybutton').click(function(){
+                // $('#mypara2').fadeOut(1500);
+                $('#mypara2').animate({borderRadius:"100px"},1500);
+             })
+        });
+    </script>
+</body>
+</html>

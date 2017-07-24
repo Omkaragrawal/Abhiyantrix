@@ -1,3 +1,5 @@
 ﻿https://goo.gl/EKtehG -----> disable tab key in input
 errors in console log
 verifying again with regex.
+
+the UID gets incremented even if prev record is deleted

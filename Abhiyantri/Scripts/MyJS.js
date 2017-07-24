@@ -9,8 +9,8 @@ var email_address;
 var valid_format, smtp_check, disposable, mxfound, Urole;
 function setmail() {
     email_address = document.getElementById('TextBox11').value;
-    document.getElementById('Label5').textContent = email_address;
-    //verify();
+   // document.getElementById('Label5').textContent = email_address;
+    verify();
 }
 
 // verify email address via AJAX call
@@ -21,13 +21,13 @@ $.ajax({
     dataType: 'jsonp',
     success: function validate(json) {
 
-        // Access and use your preferred validation result objects
-        //console.log(json.format_valid);
-        //console.log(json.smtp_check);
-        //console.log(json.score);
-        //console.log("disposable:   "+json.disposable);
-        //console.log(json.role);
-        //console.log(json.mxfound);
+         //Access and use your preferred validation result objects
+        console.log(json.format_valid);
+        console.log(json.smtp_check);
+        console.log(json.score);
+        console.log("disposable:   "+json.disposable);
+        console.log(json.role);
+        console.log(json.mxfound);
 
 
 
@@ -58,6 +58,7 @@ function emailchck(id1,id2,id3,id4,id5)
     {
         //document.getElementById("HFemail").innerText = document.getElementById("TextBox11").innerText;
         document.getElementById("HFemail").innerText = email_address;
+        document.getElementById("Label4").innerHtml= email_address +"<br />disposable= " + disposable + "<br />Smtp check= "+ smtp_check+"<br /> mxfound= "+ mxfound + "<br />Urole= " + Urole+ "<br />valid format= "+ valid_format;
     }
     else
     {
@@ -87,10 +88,6 @@ function assign(idfrom,idto)
     document.getElementById(idto).innerText = document.getElementById(idfrom).innerText;
 }
 
-function verify()
-{
-
-}
 
 
     //document.getElementById('SUSbmtBtn').onclick(function () {
